@@ -2388,7 +2388,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "share":
             btn = [[
                     InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Hacker6865)
+                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/Hacker6865")
                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
@@ -3442,6 +3442,7 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
 
 
 
